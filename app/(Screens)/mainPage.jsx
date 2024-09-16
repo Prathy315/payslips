@@ -8,11 +8,12 @@ import HomePage from '../../components/EMS/HomePage';
 import Document from "../../components/EMS/Document";
 import Ecards from "../../components/EMS/Ecards";
 import Personaldetails from "../../components/EMS/Personaldetails";
+import Code from '../../components/EMS/Code'
 
 export default function mainPage() {
   return (
     <View style={{ backgroundColor: "#fff", width: "100%", height: "100%" }}>
-      <Personaldetails />
+   <Code/>
     </View>
   );
 }
